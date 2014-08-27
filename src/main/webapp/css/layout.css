@@ -1,0 +1,47 @@
+/*
+ * Main layout styles script.
+ */
+h1 {
+  font-size: 30px; }
+
+body div.container {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  background: #fcfcfc;
+  padding: 20px;
+  margin-top: 30px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75); }
+  body div.container nav {
+    width: 50%;
+    margin: 0 auto; }
+    body div.container nav ul {
+      margin: 0 auto; }
+      body div.container nav ul button {
+        background: white;
+        color: black;
+        border: 1px black solid;
+        padding: 10px;
+        border-radius: 10px; }
+      body div.container nav ul button:hover {
+        background: black;
+        color: white;
+        border: 1px black solid;
+        padding: 10px;
+        border-radius: 10px; }
+body section.elements_bar ul li {
+  display: inline; }
+  body section.elements_bar ul li button {
+    background: white;
+    color: black;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 10px; }
+  body section.elements_bar ul li button:hover {
+    background: black;
+    color: white;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 10px; }

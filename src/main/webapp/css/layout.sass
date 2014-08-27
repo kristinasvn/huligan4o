@@ -1,0 +1,38 @@
+/**
+ * Main layout styles script.
+ */
+@import util
+
+$COLOR1: #fcfcfc
+$COLOR2: #000000
+$COLOR3: #ffffff
+
+h1
+  font-size: 30px
+
+body
+  div.container
+    width: 50%
+    height: 100%
+    margin: 0 auto
+    background: $COLOR1
+    padding: 20px
+    margin-top: 30px
+    +shadow(0px 0px 5px 0px rgba(50, 50, 50, 0.75))
+    nav
+      width: 50%
+      margin: 0 auto
+      ul
+        margin: 0 auto
+        button
+          +control-button($COLOR3, $COLOR2)
+        button:hover
+          +control-button-hover($COLOR2, $COLOR3)
+  section.elements_bar
+    ul
+      li
+        display: inline
+        button
+          +control-button($COLOR3, $COLOR2)
+        button:hover
+          +control-button-hover($COLOR2, $COLOR3)

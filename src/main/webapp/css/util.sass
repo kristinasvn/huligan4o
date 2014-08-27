@@ -1,0 +1,30 @@
+=shadow($shadow)
+  -webkit-box-shadow: $shadow
+  -moz-box-shadow:    $shadow
+  box-shadow:         $shadow
+
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+=opaque($number)
+  opacity: $number
+
+=fullscreen()
+  width: 100%
+  height: 100%
+
+=control-button($color-bg, $color-text)
+  background: $color-bg
+  color: $color-text
+  border: 1px black solid
+  padding: 10px
+  border-radius: 10px
+=control-button-hover($color-bg, $color-text)
+  background: $color-bg
+  color: $color-text
+  border: 1px black solid
+  padding: 10px
+  border-radius: 10px
